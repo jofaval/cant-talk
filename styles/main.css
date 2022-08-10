@@ -1,0 +1,24 @@
+button, .btn, .button
+{
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+}
+
+#btnTalk
+{
+    width: 100%;
+    margin: auto;
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+}
+
+#text
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: inset 0 10px 15px rgba(0,0,0,.1);
+    padding: 1rem;
+}

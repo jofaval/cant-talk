@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can't Talk</title>
+    <script src="src/strings/es.js"></script>
+    <script src="src/logic/strings.js"></script>
+    <script src="src/logic/speech.js"></script>
+    <script src="src/main.js" defer></script>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <h1 id="title">Can't Talk</h1>
+    <h2 id="subtitle">Proyecto con la idea de poder comunicar de forma verbal lo que no puedes articular</h2>
+    <p id="multiple-clicks-warning">Pulsar una vez es más que suficiente para que se empiece a hablar</p>
+
+    <label for="text">
+        <small id="label-text">Introduzca el texto que quieres comunicar</small>
+    </label>
+    <br />
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+    <br />
+    <div id="actions">
+        <div id="utilities">
+            <button id="btnClean">
+                🗑️
+                <span id="btn-clean-text">Limpiar</span>
+            </button>
+            <!-- TODO: Implementar botón de pausa y reanudar en uno solo -->
+            <button id="btnPause">
+                ▶️
+                <span id="btn-pause-text">Pausar</span>
+            </button>
+            <button id="btnResume">
+                ⏸️
+                <span id="btn-resume-text">Reanudar</span>
+            </button>
+            <button id="btnStop">
+                ⏹️
+                <span id="btn-stop-text">Parar</span>
+            </button>
+        </div>
+        <button class="button" id="btnTalk">
+            🔊
+            <span id="btn-talk-text">Hablar</span>
+        </button>
+    </div>
+
+    <!-- TODO: Implementar botones de pausa y control de volumen -->
+
+    <!-- Implementar selector de tipo de voz -->
+
+    <!-- TODO: Implementar secciones de textos predefinidos por dar ideas y por si acaso -->
+
+</body>
+</html>
